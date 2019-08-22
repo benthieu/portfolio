@@ -12,20 +12,23 @@
     margin: 120px auto 20px;
     padding: 0 40px;
     section {
-      background: white;
       padding: 5px 10px;
     }
     section.left {
+        background: #E2E6DF;
         border-radius: 2px;
+        z-index: 2;
         flex: 5;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     section.right {
         flex: 9;
+        z-index: 1;
         border-top-right-radius: 2px;
         border-bottom-right-radius: 2px;
-        border-left: 1px solid #EFEFEF;
         margin: 15px 0;
         padding: 5px 25px;
+        background: #D2DFD5;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
 }
