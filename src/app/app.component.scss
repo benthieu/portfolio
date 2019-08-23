@@ -43,16 +43,18 @@
         }
     }
     a.blog-button {
+        clear: both;
         line-height: 31px;
         border: 0.5px solid #A93F55;
         color: #A93F55;
         text-decoration: none;
         display: block;
         padding: 0 25px;
-        border-radius: 15px;
+        border-radius: 5px;
         float: right;
         font-weight: 300;
         text-transform: uppercase;
+        margin-top: 60px;
         &:hover {
             color: #FFF;
             background: #A93F55;
