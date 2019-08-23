@@ -1,0 +1,14 @@
+:host {
+    text-align: right;
+    a > svg {
+        display: inline-block;
+        width: 1.4em;
+        padding-right: 0.5em;
+        path {
+            fill: #344355;
+        }
+    }
+    a:hover > svg > path {
+        fill: #9098A2;
+    }
+}
