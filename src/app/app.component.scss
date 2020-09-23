@@ -37,20 +37,21 @@
     }
     a.blog-button {
         clear: both;
+        font-family: 'Livvic', serif;
         line-height: 31px;
         border: 0.5px solid #A93F55;
         background: #A93F55;
         color: white;
         text-decoration: none;
-        padding: 0 25px;
-        font-weight: 300;
+        padding: 5px 25px;
+        font-weight: 200;
+        font-size: 18px;
         text-transform: uppercase;
-        margin-top: 60px;
         text-align: center;
         display: block;
         display: block;
         max-width: 140px;
-        margin: 60px auto 0;
+        margin: 70px auto 0;
         &:hover {
             color: #FFF;
             background: #B86173;
@@ -62,6 +63,7 @@
         box-shadow: none;
         section.left {
             box-shadow: none;
+            padding: 30px 9vw 30px 5vw;
         }
         section.right {
             position: absolute;
